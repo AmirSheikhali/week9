@@ -1,0 +1,14 @@
+{
+  "name": "gemini_api_key",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amir",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^1.28.0"
+  }
+}

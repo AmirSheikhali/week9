@@ -1,0 +1,24 @@
+<h1>Recipe Results</h1>
+<P>You entered "{{userIngredients}}"</P>
+<P>Here's a recipe using those ingreidents</P>
+<h2>{{recipeJSON.recipeName}}</h2>
+
+<h2>Description</h2>
+<p>{{recipeJSON.description}}</p>
+
+<h2>Ingreidents</h2>
+<ul>
+    {{#each recipeJSON.ingreidents}}
+    <li>{{this}}</li>
+    {{/each}}
+</ul>
+
+<h3>Instructions</h3>
+<ul>
+{{#each recipeJSON.instructions}}
+<li>{{this}}</li>
+{{/each}}
+
+</ul>
+
+{{!-- TODO create HTML and display the recipe information --}}
